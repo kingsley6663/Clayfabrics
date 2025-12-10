@@ -1,0 +1,88 @@
+Clayfabrics Website Features Overview
+
+1. Navigation
+   - Fixed header with logo and navigation menu
+   - Links to Home, About, Products, Contact sections
+   - Mobile-responsive hamburger menu
+
+2. Hero Section
+   - Welcome message for Clayfabrics
+   - Call-to-action button linking to products page
+   - Background overlay for readability
+
+3. About Section
+   - Information about Clayfabrics brand
+   - Founded by C. ARABA YAWSON
+   - Focus on fashion trends and quality
+
+4. Products Section
+   - Dynamic product gallery
+   - Product items with images, names, and prices
+   - Add to Cart functionality for each product
+   - Hover effects on product items
+
+5. Fashion Showcase Slideshow
+   - Image slideshow with navigation arrows
+   - Dot indicators for slide selection
+   - Auto-advancing slides every 5 seconds
+
+6. Customer Testimonials
+   - Reviews from satisfied customers
+   - Displayed in styled testimonial cards
+
+7. Fashion Blog
+   - Blog posts with images and descriptions
+   - Links to read more (currently placeholder)
+
+8. Contact Section
+   - Redesigned with contact information and form side-by-side
+   - Contact details: Email, Phone, Location, Business Hours
+   - Social media links
+   - Contact form with name, email, and message fields
+
+9. Shopping Cart
+   - Add items to cart with quantity tracking
+   - Cart button in header showing item count and total price
+   - Cart modal displaying items, quantities, and totals
+   - Remove items from cart (decrements quantity or removes if 1)
+
+10. Search Functionality
+    - Search input in header to filter products by name
+    - Real-time filtering as user types
+
+11. Admin Features
+    - Admin login with password "KING"
+    - Admin dashboard for managing products
+    - Add new products with image upload
+    - Edit and delete existing products
+    - Product data stored in localStorage
+
+12. Responsive Design
+    - Mobile-friendly layout
+    - Adaptive navigation for small screens
+    - Responsive product gallery and forms
+
+13. Interactive Elements
+    - Smooth scrolling navigation
+    - Scroll animations for sections
+    - Hover effects on buttons and links
+    - Modal windows for cart and login
+
+14. Footer
+    - Copyright information
+    - Social media links
+
+15. Technical Features
+    - HTML5 structure
+    - CSS3 styling with modern design
+    - JavaScript for interactivity
+    - localStorage for data persistence
+    - Form validation and submission handling
+
+16. Accessibility
+    - Semantic HTML elements
+    - Alt text for images
+    - Keyboard navigation support
+    - Color contrast considerations
+
+This website provides a complete e-commerce experience for a fashion brand, with both customer-facing features and admin management tools.

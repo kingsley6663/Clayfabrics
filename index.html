@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClayFabrics - Fashion by C. ARABA YAWSON</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>ClayFabrics</h1>
+            </div>
+            <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to ClayFabrics</h2>
+            <p>Discover exquisite fashion curated by C. ARABA YAWSON</p>
+            <a href="#products"><button class="cta-button">Explore Collection</button></a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>ClayFabrics is a premier fashion brand founded by C. ARABA YAWSON, dedicated to bringing you the latest trends in clothing and accessories. Our passion for style and quality drives everything we do.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-gallery" id="product-gallery">
+                <!-- Products will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <section id="slideshow" class="slideshow">
+        <div class="container">
+            <h2>Fashion Showcase</h2>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/image1.png" alt="Fashion Slide 1">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/image2.png" alt="Fashion Slide 2">
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/image1.png" alt="Fashion Slide 3">
+                </div>
+                <a class="prev">&#10094;</a>
+                <a class="next">&#10095;</a>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"ClayFabrics has transformed my wardrobe with their exquisite pieces. Highly recommended!"</p>
+                <cite>- Sarah Johnson</cite>
+            </div>
+            <div class="testimonial">
+                <p>"The quality and style of Clayfabrics products are unmatched. C. ARABA YAWSON knows fashion!"</p>
+                <cite>- Michael Chen</cite>
+            </div>
+            <div class="testimonial">
+                <p>"I've never felt more confident in my outfits. Thank you, ClayFabrics!"</p>
+                <cite>- Emma Davis</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Fashion Blog</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <img src="images/blog1.jpg" alt="Blog Post 1">
+                    <h3>Latest Fashion Trends for 2023</h3>
+                    <p>Discover the hottest trends that are shaping the fashion world this year...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/blog2.jpg" alt="Blog Post 2">
+                    <h3>Styling Tips for Every Occasion</h3>
+                    <p>Learn how to dress appropriately for work, parties, and casual outings...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/blog3.jpg" alt="Blog Post 3">
+                    <h3>Care Guide for Your Favorite Fabrics</h3>
+                    <p>Keep your Clayfabrics pieces looking new with these simple care tips...</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><strong>Email:</strong> <a href="mailto:info@clayfabrics.com">info@clayfabrics.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                    <p><strong>Location:</strong> 123 Fashion Avenue, Style City, SC 12345</p>
+                    <p><strong>Business Hours:</strong> Mon-Fri 9AM-6PM, Sat 10AM-4PM</p>
+                    <div class="social-links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="contact-form">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ClayFabrics by C. ARABA YAWSON. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <div class="cart-total">Total: $<span id="cart-total">0.00</span></div>
+            <button>Checkout</button>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="login-modal">
+        <div class="login-content">
+            <span class="close">&times;</span>
+            <h2>Admin Access</h2>
+            <input type="password" id="password" placeholder="Enter Admin Password">
+            <button id="login-submit">Access Dashboard</button>
+        </div>
+    </div>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
